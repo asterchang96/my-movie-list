@@ -143,6 +143,7 @@ searchForm.addEventListener('submit', function onSearchFormSubmitted(event) {
   )
 
   if(filteredMovies.length === 0){
+    searchInput.value = ""
     return alert(`您輸入的關鍵字：${keyword} 沒有符合條件的電影`)
   }
 
