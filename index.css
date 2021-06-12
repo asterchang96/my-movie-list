@@ -3,8 +3,11 @@
   text-align: right
 }
 
-
-
 #list-group-show{
   width:100%;
+}
+
+#movie-modal-description{
+  text-align: justify;
+  text-justify:inter-ideograph; 
 }
